@@ -99,6 +99,7 @@
 									<li><a href="/index.php?page=aide&sub=argent"><i class="fa fa-money"></i> Comment gagner de l'argent?</a></li>
 									<li><a href="/index.php?page=aide&sub=bind"><i class="fa fa-keyboard-o"></i> Mettre en place vos binds</a></li>
 									<li><a href="/index.php?page=aide&sub=nopyj"><i class="fa fa-ticket"></i> Qu'est-ce que le rang no-pyj ?</a></li>
+                                                                        <li><a href="/forum/viewtopic.php?p=640496"><i class="fa fa-flask"></i> Qu'est-ce que l'artisanat ?</a></li>
 								</ul>
 							</li><li class="dropdown">
 								<a href="/forum/">FORUM <span class="caret hidden-xs"></span></a>
@@ -120,9 +121,9 @@
 	</div>
 	{$intro}
 	<div class="container main">
-<!--
-<div class="col-sm-12 col-sm-offset-0 alert alert-warning" role="alert">
-	<strong>Maintenance</strong>. Une maintenance est prévue ce matin afin d'effectuer une mises à jour de notre infrastructure. <a href="https://www.ts-x.eu/forum/viewtopic.php?f=10&t=35205&view=unread#unread">Merci de votre patience.</a>
+<div class="col-sm-12 col-sm-offset-0 alert alert-info" role="alert">
+	<strong>Envoyez vos plus beaux screen PVE.</strong>
+	 J'offre 25K XP au plus beau, 10K XP au 2ème plus beau. 5K xp au 3ème. 1000 xp par participant.<br><br>N'oubliez pas le /screen, sinon je valide pas.  <img src="./images/smilies/new/love.png" alt=":love:" title="amour">
+	<a href="https://www.ts-x.eu/forum/viewtopic.php?p=642418#p642418">Plus d'info</a>.
 </div>
--->
 		{$page}

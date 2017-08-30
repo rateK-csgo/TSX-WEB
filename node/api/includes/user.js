@@ -444,7 +444,7 @@ exports = module.exports = function(server){
       var UserName = row[0].username_clean;
 
       var mail = "<input type='text' value='"+ SteamID + "'/> conteste <input type='text' value='" + req.params['target'] + "'/> <br />"+ req.params['reason'];
-      server.conn.query("INSERT INTO `rp_double_contest` (`steamid`, `target`) VALUES (?, ?);", [SteamID, req.params['target']], function(err, rows) {
+      server.conn.query("INSERT INTO `rp_double_contest` (`steamid`, `target`, `approuved`) VALUES (?, ?, ?);", [SteamID, req.params['target'], parseInt(req.params['reason'])], function(err, rows) {
 	if( err ) return res.send(new ERR.BadRequestError("Impossible de contester ce double-compte."));
 
         sendmail({from: 'account@ts-x.eu', to: 'kossolax@ts-x.eu', subject: 'Double compte: '+ UserName, html: mail }, function(err, reply) {

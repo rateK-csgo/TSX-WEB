@@ -62,13 +62,13 @@
           <div class="input-group">
             <span class="input-group-addon">Raison:</span>
             <select class="form-control" ng-model="reason">
-              <option>Il s'agit d'un membre de ma famille</option>
-              <option>Il s'agit un proche qui est venu chez moi</option>
-              <option>Il s'agit d'un ancien compte que je n'ai plus accès</option>
-              <option>Il s'agit d'une erreur, je n'ai pas partagé mon compte avec lui</option>
-              <option>J'ai partagé mon compte avec lui, mais il n'a plus accès.</option>
-              <option>Je ne sais pas qui c'est</option>
-              <option>Autres, je souhaite être recontacté</option>
+              <option value="2">Il s'agit d'un membre de ma famille</option>
+              <option value="0">Il s'agit un proche qui est venu chez moi</option>
+              <option value="2">Il s'agit d'un ancien compte que je n'ai plus accès</option>
+              <option value="0">Il s'agit d'une erreur, je n'ai pas partagé mon compte avec lui</option>
+              <option value="0">J'ai partagé mon compte avec lui, mais il n'a plus accès.</option>
+              <option value="0">Je ne sais pas qui c'est</option>
+              <option value="0">Autres, je souhaite être recontacté</option>
             </select>
           </div>
         </div>

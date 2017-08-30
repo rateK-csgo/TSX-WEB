@@ -41,8 +41,8 @@ function handleDisconnect() {
     server.conn = new Pool(8);
 }
 
-process.on('uncaughtException', function(err) {
-	console.log('Caught exception: ' + err);
+process.on('uncaughtException', function(err, p) {
+	console.log('Caught exception: ' + err + ' --> ' + p);
 });
 server.on('uncaughtException', function (request, response, route, error) {
 	console.log('Caught exception in : '+request.path());
@@ -72,9 +72,9 @@ require('./includes/hdv.js')(server);
 require('./includes/steam.js')(server);
 require('./includes/devzone.js')(server);
 require('./includes/search.js')(server);
+require('./includes/redirect.js')(server);
 
 server.pre(function (request, response, next) {
-//	console.log(request.path());
 	next();
 });
 

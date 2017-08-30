@@ -14,7 +14,7 @@ exports = module.exports = function(server){
   var manager = new TradeOfferManager({steam: client, domain: "ts-x.eu", language: "fr"});
 
   function getInventoryFromID(SteamID, callback) {
-    request("http://steamcommunity.com/profiles/" + (new SteamC(SteamID)).getSteamID64() + "/inventory/json/730/2", function (error, response, body) {
+    request("http://steamcommunity.com/inventory/" + (new SteamC(SteamID)).getSteamID64() + "/730/2?l=french&count=5000", function (error, response, body) {
       if( error ) throw new ERR.NotFoundError("SteamError");
 
       try {
@@ -25,14 +25,12 @@ exports = module.exports = function(server){
       }
       if( !body.success ) throw new ERR.NotFoundError("InventoryError");
 
-      var invs = body.rgInventory;
-      var items = body.rgDescriptions;
+      var items = body.descriptions;
       var invID = new Array();
       var obj = new Array();
-
-      Object.keys(invs).forEach(function (i) {
-        var inv = invs[i];
-        invID[inv.classid+"_"+inv.instanceid] = inv.id;
+      Object.keys(body.assets).forEach(function (i) {
+	var item = body.assets[i];
+	invID[item.classid+"_"+item.instanceid] = item.assetid;
       });
 
       Object.keys(items).forEach(function (i) {
@@ -49,13 +47,13 @@ exports = module.exports = function(server){
           };
 	  data.price = getPrice(item.market_hash_name);
 
-/*	  Object.keys(item.tags).forEach(function (j) {
+	  Object.keys(item.tags).forEach(function (j) {
             var tag = item.tags[j];
             if( tag.internal_name === "CSGO_Type_WeaponCase" )
-		data.price = 0.05;
+		data.price = 0;
           });
-*/
-          if( data.price >= 0.10 )
+
+          if( data.price >= 0.05 )
             obj.push(data);
         }
       });
@@ -92,7 +90,7 @@ exports = module.exports = function(server){
           var item = items[i];
           console.log(item);
           var euro = ( getPrice(item.market_hash_name) * 0.95);
-          var money = euro * 10000;
+          var money = euro * 20000;
           var SteamID = offer.partner.getSteam2RenderedID();
           var now = new Date();
           var year = now.getFullYear() - 2000;
@@ -150,11 +148,15 @@ server.post('/steam/trade', function (req, res, next) {
       getInventoryFromID(SteamID, function(obj) {
         Object.keys(obj).forEach(function (i) {
           var item = obj[i];
+
           if( item.id == parseInt(req.params['itemid']) ) {
 
+
             var euro = getPrice(item.hashname);
-            var money = (euro * 0.95) * 10000;
-            if( euro < 0.10 ) return res.send(new ERR.NotFoundError("InventoryError"));
+            var money = (euro * 0.95) * 20000;
+            if( euro < 0.05 ) return res.send(new ERR.NotFoundError("InventoryError"));
+
+		console.log("about to send offer of " + money);
 
             server.conn.query("SELECT `partner`, `tokken` FROM `ts-x`.`phpbb3_users` WHERE `steamid`=?", [SteamID], function(err, row) {
               if( err ) return res.send(new ERR.InternalServerError(err));
@@ -163,7 +165,6 @@ server.post('/steam/trade', function (req, res, next) {
               offer.setToken(row[0].tokken);
               offer.addTheirItem({appid: 730, contextid: 2, assetid: parseInt(req.params['itemid'])});
               offer.send(function(err, status) {
-		console.log(err.eresult);
                 if( err && err.eresult == 15 ) return res.send({id: -1});
                 else if( err && err.eresult == 50 ) return res.send({id: -2});
                 else if( err ) return res.send(new ERR.InternalServerError(err));
