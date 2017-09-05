@@ -23,7 +23,7 @@
 								<li class="list-group-item"><a href="/index.php?page=aide&sub=argent#GroupDSub2"><i class="fa fa-bomb hidden-xs hidden-sm" aria-hidden="true"></i> Les events</a></li>
 								<li class="list-group-item"><a href="/index.php?page=aide&sub=mairie"><i class="fa fa-medium hidden-xs hidden-sm" aria-hidden="true"></i> La Mairie</a></li>
 								<li class="list-group-item"><a href="/index.php?page=aide&sub=pvp"><i class="fa fa-shield hidden-xs hidden-sm" aria-hidden="true"></i> La PvP</a></li>
-								<li class="list-group-item"><a href="/index.php?page=aide&sub=debuter#GroupD"><i class="fa fa-heart hidden-xs hidden-sm" aria-hidden="true"></i> Le Mariage [?CREA?]</a></li>
+								<li class="list-group-item"><a href="/index.php?page=aide&sub=debuter#GroupD"><i class="fa fa-heart hidden-xs hidden-sm" aria-hidden="true"></i> Le Mariage </a></li>
 								<li class="list-group-item"><a href="/index.php?page=aide&sub=crayon"><i class="fa fa-paint-brush hidden-xs hidden-sm" aria-hidden="true"></i> Les crayons de couleur</a></li>
 							</ul>
 						</div>
