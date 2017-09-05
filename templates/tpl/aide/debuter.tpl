@@ -378,7 +378,33 @@
 						</div>
 					</div>
 					<div class="panel-body">
-							En cour de création ...
+							Le mariage sert à vous unifier avec une personne qui compte pour vous.
+							Vous souhaitez vous marier ? Dirigez-vous vers les tribunaux et demandez à un juge une demande de mariage.
+							
+							Sachant que le mariage a pour prix <span class="blood"5000$.</span class>
+							
+							<br /> 
+							<img class="img_wiki"  src="/images/wiki/debuter/mariage_1.png" />
+							<br />
+							
+							Pourquoi ? Car une fois marié, vous et votre conjoint vous bénéficierait d'un <span class="pomme">bonus.</span>
+							Lequel ? Un bonus <span class="pomme">d'HP</span> et de <span class="ocean">kevlar</span>, il vous suffira de vous rapprocher l'un de l'autre pour activer ce bonus.
+							
+							<br /> 
+							<img class="img_wiki"  src="/images/wiki/debuter/mariage_2.png" />
+							<br />
+							
+							Une fois cette étape faite, vous seriez donc marié pour une période de 1 semaine IRL.
+							Plus tard vous avez le choix de prolonger votre date de mariage, pour ceux-ci re-contacté un juge pour qu'il prolonge les liens de votre mariage.
+							
+							Bien évidemment, le prolongement de votre mariage auras un coût qui variera en fonction de la prolongation de votre lien avec votre conjoint.
+							
+							De plus, lorsque vous arrivez sur le serveur, et que votre conjoint(e) est présent lui/elle aussi vous aurez un signal.
+							Il ne vous reste plus qu'à aller le/la rejoindre.
+							
+							<br /> 
+							<img class="img_wiki"  src="/images/wiki/debuter/mariage_3.png" />
+							<br />
 					</div>
 				<br />
 				</div>
