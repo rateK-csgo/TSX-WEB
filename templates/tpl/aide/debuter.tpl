@@ -388,11 +388,10 @@
 						<br />
 						<img class="img_wiki" src="https://www.ts-x.eu/web/messorem/images/wiki/4b68df810131d508886583e9112970db7663ee2e.jpg" alt="img" /><br />
 						<br />
-						<p>Quel en sont les avantages ?<br />
-						Une fois marié, vous et votre conjoint(e) partagez tout ! <br />
-						(Voiture, appartement, morpions...) <br />
+						<p><b>Q<u>uel en sont les avanta</u>g<u>es</u> ?</b><br />
+						Une fois marié, vous et votre conjoint(e) partagez tout ! <span style="font-size:11px">(Voiture, appartement, morpions...)</span> <br />
 						Vous bénéficiez également d'une régénération de <span class="pomme">vie</span> et de <span class="ocean">kevlar</span>
-						qu'il vous serra possible d'activée par la simple proximité de votre conjoint<br /> (cf photo ci-dessus).</p>	
+						qu'il vous serra possible d'activée par la simple proximité de votre conjoint<br /> <span style="font-size:11px">(cf photo ci-dessus)</span>.</p>	
 					</div>
 				</div>
 			</div>
