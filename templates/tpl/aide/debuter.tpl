@@ -378,9 +378,22 @@
 						</div>
 					</div>
 					<div class="panel-body">
-							En cour de création ...
+						<p>Le mariage est là pour vous lier avec le joueur de votre choix et vous permettre à tous deux de bénificié de certain <span class="pomme">bonus</span>.<br />					
+						<br />Si vous êtes sur de votre choix, courrez vite voir un juge au tribunal qui vous unira tout deux pour la modique somme de <span class="blood">5 000 $rp.</span class></p><br />
+						<br /> 
+						<img class="img_wiki" src="https://www.ts-x.eu/web/messorem/images/wiki/38c03b4befd1c2bda599810f31f864b6f4143eb3.jpg" alt="img" />
+						<br />
+						<p>Une fois que vous aurez franchit le pas, vous serez lié tout deux pendant 1 semaine IRL !<br />
+						Plus tard, vous aurez la possibilitée de prolonger votre mariage au près d'un juge pour la période de votre choix.</p><br />
+						<br />
+						<img classe="img_wiki" src="https://www.ts-x.eu/web/messorem/images/wiki/4b68df810131d508886583e9112970db7663ee2e.jpg" alt="img" />
+						<br />
+						<p>Quel en sont les avantages ?<br />
+						Une fois marié, vous et votre conjoint partagez tout ! Voiture, appartement, morpions... et vous bénéficiez également d'une régénération de <span class="pomme">vie</span> et de <span class="ocean">kevlar</span>
+						qu'il vous serra possible d'activée par la simple proximité de votre conjoint (cf photo ci-dessus).</p>	
+						<br /> 
+						<img classe="img_wiki" src="https://www.ts-x.eu/web/messorem/images/wiki/4b68df810131d508886583e9112970db7663ee2e.jpg" alt="img" />
 					</div>
-				<br />
 				</div>
 			</div>
 		</div>
