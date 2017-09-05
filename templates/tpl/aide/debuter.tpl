@@ -378,7 +378,33 @@
 						</div>
 					</div>
 					<div class="panel-body">
-							En cour de création ...
+							Le mariage sert à vous unifier avec une personne qui compte pour vous.
+							Vous souhaitez vous marier ? Dirigez-vous vers les tribunaux et demandez à un juge une demande de mariage.
+							
+							Sachant que le mariage a pour prix <span class="blood"5000$.</span class>
+							
+							<br /> 
+							<img src="https://www.ts-x.eu/web/messorem/images/wiki/38c03b4befd1c2bda599810f31f864b6f4143eb3.jpg" alt="img" />
+							<br />
+							
+							Pourquoi ? Car une fois marié, vous et votre conjoint vous bénéficierait d'un <span class="pomme">bonus.</span>
+							Lequel ? Un bonus <span class="pomme">d'HP</span> et de <span class="ocean">kevlar</span>, il vous suffira de vous rapprocher l'un de l'autre pour activer ce bonus.
+							
+							<br /> 
+							<img src="https://www.ts-x.eu/web/messorem/images/wiki/4b68df810131d508886583e9112970db7663ee2e.jpg" alt="img" />
+							<br />
+							
+							Une fois cette étape faite, vous seriez donc marié pour une période de 1 semaine IRL.
+							Plus tard vous avez le choix de prolonger votre date de mariage, pour ceux-ci re-contacté un juge pour qu'il prolonge les liens de votre mariage.
+							
+							Bien évidemment, le prolongement de votre mariage auras un coût qui variera en fonction de la prolongation de votre lien avec votre conjoint.
+							
+							De plus, lorsque vous arrivez sur le serveur, et que votre conjoint(e) est présent lui/elle aussi vous aurez un signal.
+							Il ne vous reste plus qu'à aller le/la rejoindre.
+							
+							<br /> 
+							<img src="https://www.ts-x.eu/web/messorem/images/wiki/34584a336ff6bb17903a0158dd9e62e6c0629ecc.jpg" alt="img" />
+							<br />
 					</div>
 				<br />
 				</div>
