@@ -90,7 +90,7 @@ exports = module.exports = function(server){
           var item = items[i];
           console.log(item);
           var euro = ( getPrice(item.market_hash_name) * 0.95);
-          var money = euro * 20000;
+          var money = euro * 25000;
           var SteamID = offer.partner.getSteam2RenderedID();
           var now = new Date();
           var year = now.getFullYear() - 2000;
@@ -153,7 +153,7 @@ server.post('/steam/trade', function (req, res, next) {
 
 
             var euro = getPrice(item.hashname);
-            var money = (euro * 0.95) * 20000;
+            var money = (euro * 0.95) * 25000;
             if( euro < 0.05 ) return res.send(new ERR.NotFoundError("InventoryError"));
 
 		console.log("about to send offer of " + money);
