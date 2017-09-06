@@ -97,7 +97,7 @@
 					</div>
 					<div class="panel-body">
 						
-						<p>C'est très simple <span class="pomme">plusieurs moyens</span> ont à votre porter.</p>
+						<p>C'est très simple <span class="pomme">plusieurs moyens</span> sont à votre porter.</p>
 							<br />
 
 							<p><center> 1er astuce : Les quêtes téléphones.</p></center>
@@ -134,7 +134,7 @@
 							<p>Chaque succès vous fait rapporter de l'EXP.</p>
 
 							<br />
-							<p>Ainsi, vous l'avez compris <span class="pomme">l'EXP</span> vous feras augmenter rapidement en Lvl, et peut-être viseriez vous <span class="blood">tous les prestiges ?</span></p>
+							<p>Ainsi, vous l'avez compris <span class="pomme">l'EXP</span> vous fera augmenter rapidement en Lvl, et peut-être viseriez vous <span class="blood">tous les prestiges ?</span></p>
 					</div>
 				</div>
 			</div>
