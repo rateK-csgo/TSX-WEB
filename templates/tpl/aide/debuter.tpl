@@ -96,7 +96,29 @@
 						</div>
 					</div>
 					<div class="panel-body">
-						<p>En cour de création ...</p>
+						<p>C'est très simple <span class="pomme">plusieurs moyens</span> sont à votre porter.</p><br />
+
+							<p><center> 1er astuce : Les quêtes téléphones.</center></p><br />
+							( Plusieurs quêtes s'offrent à vous selon votre emploi.)</p><br />
+
+							<p><center>2éme astuce : Devenir Avocat.</center></p><br />
+							<p>Lorsque vous ête nommé avocat, vous avez donc comme 2nd job de défendre les joueurs qui ont des problèmes lors de jugements.
+							Votre but est de défendre votre client et à la fin, quel que soit le jugement donné à votre client, vous gagneriez de l'EXP.</p><br />
+
+							<p><center>3éme astuce : Le craft.</center></p><br />
+							<p>Trouvez une table de craft, prenez via un distributeur vos matières premières que vous avez besoin pour crafter l'objet que vous souhaitez.
+							Il y a plusieurs niveaux à passer. Vous gagneriez de l'EXP une fois 1 niveau passé.</p><br />
+
+							<p><center> 4éme astuce : Les Fioles.<center></p><br />
+							<p>Cette fois, contacté un vendeur de l'artisanat pour lui commander quelque fiole d'expérience, qui vous fera gagné 2500XP.<span class="blood">( Bien sûr, chaque fiole coute 5000$.)</span></p><br />
+
+							<p><center> 5éme astuce : Participez aux évents.<center></p><br />
+							<p>Oui ! Les évents créés par les Admins/V.I.P peuvent aussi vous faire gagné de l'EXP gratuitement a condition de gagner l'évent.</p><br />
+
+							<p><center> 6éme astuce :Les succèes.<center></p><br />
+							<p> Rendez-vous sur le forum, dans la section "Roleplay" et "succès" pour vous mettre à jour.<br />Chaque succès vous fait rapporter de l'EXP.</p><br />
+
+							<p>Ainsi, vous l'avez compris <span class="pomme">l'EXP</span> vous fera augmenter rapidement en Lvl, et peut-être viseriez vous <span class="blood">tous les prestiges ?</span></p>
 					</div>
 				</div>
 			</div>
