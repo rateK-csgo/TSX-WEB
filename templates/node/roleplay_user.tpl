@@ -78,8 +78,22 @@
     </ul>
   </div>
   <div class="col-sm-4">
+<!--
     <h3 class="row">Personnalité</h3>
     <div id="polar" draw-radar-chart="https://www.ts-x.eu/api/user/{{Params.sub}}/personality" style="height: 100%; margin: 0 auto; width:100%; display:block;"></div>
+-->
+    <h3 class="row">Jobs notables:</h3>
+	<ul>
+		<li ng-repeat="(k, v) in userJobs | orderBy : 'value.time'" ng-if="k%10==0 && v.name.length > 2 && v.time > 3600">
+			{{v.name}} - {{Math.round(v.time*10/(60*60))/10}} heures
+			<ul>
+				<li ng-repeat="(i, j) in userJobs" ng-if="(i-(i%10)) == k && i != k && j.time > 3600">
+					{{j.name}} - {{Math.round(j.time*10/(60*60))/10}} heures
+				</li>
+			</ul>
+		</li>
+	</ul>
+
   </div>
 </div>
 <div class="row text-center" ng-show="data.job_id+data.group_id > 0 && $parent.steamid == Params.sub">

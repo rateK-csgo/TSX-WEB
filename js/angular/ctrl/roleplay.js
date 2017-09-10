@@ -58,6 +58,7 @@ app.controller('rpJobGang', function($scope, $http, $routeParams, $location) {
   if( $routeParams.arg == "user" ) {
     $http.get("https://www.ts-x.eu/api/user/"+$routeParams.sub+"/stats").success(function(res) { $scope.stats = res; });
     $http.get("https://www.ts-x.eu/api/live/connected/"+$routeParams.sub).success(function(res) { $scope.connected = parseInt(res); });
+    $http.get("https://www.ts-x.eu/api/user/job/"+$routeParams.sub).success(function(res) { $scope.userJobs = res; })
   }
   $scope.dropCallback = function(event, index, item, external, type) {
     console.log(index);
