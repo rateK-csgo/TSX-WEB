@@ -104,11 +104,11 @@
 							Lorsque vous êtes nommé avocat, vous avez comme second métier de défendre les joueurs au tribunal, qu'ils soient accusé ou victime, contre rémunération en XP.</p><br />
 							<p><i><u>3éme astuce </u></i>: Le craft.<br />
 							Vous gagneriez de l'XP pour chaque niveau passé voir le <a href="../forum/viewtopic.php?f=10&t=35907">tutoriel sur l'artisana.</a></p><br />
-							<p><i>4éme astuce : Le loto.</i><br />
+							<p><i><u>4éme astuce</u></i> : Le loto.<br />
 							Gagnez <span class="pomme">100 xp</span> pour<span class="blood"> 5000 $ </span></p><br />
-							<p><i><center> 5éme astuce : Participer aux évents.<center></i><br />
+							<p><i><u>5éme astuce </u></i>: Participer aux évents.<br />
 							Les évents créés par les Admins/V.I.P peuvent aussi vous faire gagner de l'XP gratuitement à condition de gagner l'évent.</p><br />
-							<p><i>6éme astuce : Les succès.</i><br />
+							<p><i><u>6éme astuce : Les succès.</u></i><br />
 							<p> Rendez-vous sur le forum, dans la section <a href="https://www.ts-x.eu/index.php?page=success">les succès</a> pour vous mettre à jour.<br />
 							Chaque succès vous rapporte de l'XP.</p><br />
 							<br />
